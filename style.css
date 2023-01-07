@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #144175;
+  padding: 5px 20px 5px 50px;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+.logo__img {
+  cursor: pointer;
+}
+header ul li {
+  padding: 0px 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+header ul li a:hover:not(.wallet) {
+  border-bottom: 4px solid aqua;
+  padding-top: 2px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.wallet {
+  font-weight: 900;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  border: 3px solid aqua;
+  border-radius: 50px;
+  background-color: #144175;
+  cursor: pointer;
+}
+.wallet:hover {
+  padding: 15px 30px;
+  color: #000000;
+  border-radius: 50px;
+  background-color: aqua;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.logo__img {
+  width: 150px;
+}
+/* -------------------------- --------------slider------------------------------------------ */
+.slider {
+  width: 100%;
+  background-image: url(./img/backgournd--gradient.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  align-items: center;
+}
+.slaider__heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #0b2644;
+  padding: 50px 0px 20px 100px;
+  align-items: center;
+}
+.slider__bottom {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+  width: 500px;
+  margin: 0px 100px;
+}
+
+.slider__img {
+  margin: 10px;
+}
+
+/*------------------------------------- section__one------------------------------------------ */
+.section__one {
+  display: flex;
+  margin: 30px 100px;
+}
+.project,
+.investment,
+.socail {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 0px 50px 0px 50px;
+}
+.section__one h3 {
+  margin: 10px 0px;
+}
+.section__wcu {
+  margin: 30px 100px;
+}
+.section__wcu h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #0b2644;
+}
+.section__wcu p {
+  width: 500px;
+}
+.section__wcu iframe {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  border-radius: 30px;
+}
+
+/* ----------------------- --------------container__cowndown-----------------------------*/
+.container__cowndown h1,
+h3,
+p {
+  margin-top: 10px;
+}
+.container__cowndown {
+  display: flex;
+  margin: 50px 100px;
+}
+.container__cowndown__left {
+  margin-right: 50px;
+}
+.container__cowndown__left {
+  margin-right: 50px;
+}
+
+/* ----------- ---------------container__cowndown__section------------------ -------------  */
+.container__cowndown__section {
+  display: flex;
+  margin-top: 30px;
+}
+.container__cowndown__right__img {
+  display: inline;
+}
+.container__cowndown__section .share,
+.loot {
+  margin: 0px 20px;
+}
+.container__blue__section {
+  display: flex;
+  width: auto;
+  height: 370px;
+  background-color: #144175;
+  margin: 30px 100px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.container__blue__section__text {
+  width: 600px;
+  margin: 20px 50px;
+  color: white;
+}
+.container__blue__section__text h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.container__blue__section__text p {
+  margin: 20px 0px;
+}
+.img__first {
+  margin-left: 20px;
+}
+.img__second {
+  margin-top: -20px;
+}
+.img__third {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.blue__section__btn {
+  font-size: 16px;
+  padding: 15px 30px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid aqua;
+  border-radius: 50px;
+  background-color: #144175;
+  cursor: pointer;
+}
+.blue__section__btn:hover {
+  padding: 15px 30px;
+  color: black;
+  border: 2px solid #144175;
+  border-radius: 50px;
+  background-color: aqua;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/*---------------------------- ------ our__pertner__section------------------- ------------- */
+
+.our__pertner__section {
+  margin: 30px 100px;
+  text-align: center;
+}
+.our__partner__heading {
+  font-size: 30px;
+  padding: 20px;
+  color: #0b2644;
+  text-align: center;
+}
+.our__pertner__section img {
+  margin: 20px 50px;
+  cursor: pointer;
+}
+
+/* ----------------------------- ----------socail__section------------------ -----------------  */
+
+.socail__seciton {
+  display: flex;
+  margin: 50px 100px;
+}
+.discord,
+.substack,
+.github {
+  border: 2px solid rebeccapurple;
+  border-radius: 0px 50px 0px 50px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+.discord a p,
+.substack a p,
+.github a p {
+  text-align: center;
+}
+
+/* ------------------------------------------utilize------------------------------------------  */
+
+.utilize {
+  text-align: center;
+}
+.utilize h2 {
+  font-size: 50px;
+  color: #144175;
+  text-align: center;
+}
+.utilize__discription {
+  margin: 10px auto 40px;
+  text-align: center;
+  padding: 10px;
+}
+.utilize__button {
+  font-size: 16px;
+  padding: 15px 30px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  border: 2px solid aqua;
+  border-radius: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.utilize__button:hover {
+  padding: 15px 30px;
+  color: black;
+  border-radius: 50px;
+  background-color: aqua;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* ------------------------------------------footer------------------------------------------ */
+footer {
+  background-color: #0b2644;
+}
+.footer__tex___section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 30px 100px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+.footer__logo__title {
+  width: 400px;
+}
+.footer__heading {
+  color: white;
+  font-size: 40px;
+}
+.footer__copyright__section {
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+.footer__socail__section {
+  text-align: center;
+}
+.footer__socail__section img:hover {
+  background-color: aqua;
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.footer__platfrom__seciotn,
+.footer__home__seciotn,
+.footer__docs__seciotn {
+  margin-top: 70px;
+}
+.footer__platfrom__seciotn ul li,
+.footer__home__seciotn ul li,
+.footer__docs__seciotn ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.footer__platfrom__seciotn ul li a,
+.footer__home__seciotn ul li a,
+.footer__docs__seciotn ul li a {
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 4px solid #0b2644;
+  padding: 2px 5px 5px;
+  transition: 0.5s;
+}
+.footer__platfrom__seciotn ul li a:hover,
+.footer__home__seciotn ul li a:hover,
+.footer__docs__seciotn ul li a:hover {
+  border-bottom: 4px solid aqua;
+  padding: 2px 5px 5px;
+  transition: 0.5s;
+}
